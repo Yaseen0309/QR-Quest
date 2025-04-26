@@ -1,0 +1,8 @@
+opencv-python
+pyzbar
+pandas
+scikit-learn
+tldextract
+flask
+scipy
+joblib
