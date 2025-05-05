@@ -19,8 +19,8 @@ def decode_qr_images(folder_path, label):
                 data.append((filename, url, label))
     return data
 
-benign_path = r"C:\Users\yasee\Downloads\TestDS\Benign"
-malicious_path = r"C:\Users\yasee\Downloads\TestDS\Malicious"
+benign_path = r"C:\Users\yasee\Downloads\1000 QR dataset\benign_qr_images_500"
+malicious_path = r"C:\Users\yasee\Downloads\1000 QR dataset\malicious_qr_images_500"
 # Decode QR images
 benign_data = decode_qr_images(benign_path, 0)
 malicious_data = decode_qr_images(malicious_path, 1)
